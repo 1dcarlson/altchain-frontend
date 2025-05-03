@@ -1,0 +1,334 @@
+{
+  "about": "Home",
+  "personalWelcome": {
+    "greeting": "Welcome to AltChain!",
+    "message": "We're excited to have you here. Discover how our AI-powered platform can transform your global sourcing strategy."
+  },
+  "hero": {
+    "title": "Smarter Global Sourcing with AI",
+    "description": "AltChain helps companies worldwide navigate the evolving landscape of trade wars, tariffs, and supply chain shifts — using AI to optimize sourcing, reduce risk, and save time."
+  },
+  "waitlist": {
+    "title": "Join our waitlist",
+    "description": "Be among the first to access our AI-powered sourcing platform.",
+    "namePlaceholder": "Your name (optional)",
+    "placeholder": "Enter your work email",
+    "button": "Join Waitlist",
+    "submitting": "Submitting...",
+    "success": "Thank you for joining our waitlist!",
+    "successDetail": "We'll be in touch when we're ready to onboard new users.",
+    "error": "Something went wrong!",
+    "errorDetail": "Please try again or contact support if the problem persists.",
+    "tryAgain": "Try Again",
+    "congratulations": "Congratulations!"
+  },
+  "benefits": {
+    "free": "Free for early access",
+    "noCard": "No credit card required"
+  },
+  "features": {
+    "title": "Why choose AltChain?",
+    "description": "Our AI-powered platform gives you the tools you need to optimize your supply chain.",
+    "riskAnalysis": {
+      "title": "Risk Analysis",
+      "description": "Identify potential supply chain disruptions before they impact your business.",
+      "tooltip": "Our AI analyzes real-time data from over 50,000 sources to predict disruptions up to 6 months in advance, giving you time to adapt your strategy. Industry data shows companies using our risk analysis have reduced supply chain disruptions by 47%."
+    },
+    "compliance": {
+      "title": "Compliance Automation",
+      "description": "Stay compliant with changing global trade regulations without manual research.",
+      "tooltip": "Trade regulations change up to 3,700 times annually across global markets. Our system automatically tracks these changes and evaluates your supply chain for compliance issues, potentially saving thousands in regulatory fines and delays."
+    },
+    "costOptimization": {
+      "title": "Cost Optimization",
+      "description": "Discover alternative sourcing opportunities to reduce costs and improve margins.",
+      "tooltip": "AltChain customers typically realize 15-23% cost savings within the first quarter of implementation. Our AI evaluates thousands of alternative sourcing scenarios to identify optimal solutions that balance cost, quality, and delivery times."
+    }
+  },
+  "detailedBenefits": {
+    "title": "Transform Your Sourcing Strategy",
+    "description": "AltChain delivers measurable improvements to your global sourcing operations.",
+    "reducedTime": {
+      "title": "Reduced Sourcing Time",
+      "description": "Cut research time by up to 70% with AI-powered supplier discovery and intelligent recommendations.",
+      "items": [
+        "AI-driven supplier matching based on your specific requirements",
+        "Automated background checks on potential suppliers",
+        "Smart filters to quickly identify the most viable options"
+      ]
+    },
+    "riskMitigation": {
+      "title": "Risk Mitigation",
+      "description": "Identify and avoid potential supply chain disruptions before they impact your operations.",
+      "items": [
+        "Real-time monitoring of geopolitical factors affecting supply chains",
+        "Supplier financial stability assessments",
+        "Diversification recommendations to reduce single-source risks"
+      ]
+    },
+    "costSavings": {
+      "title": "Cost Savings",
+      "description": "Optimize sourcing decisions to significantly lower costs while maintaining quality standards.",
+      "items": [
+        "Comparative pricing across multiple regions and suppliers",
+        "Hidden cost analysis (shipping, tariffs, compliance)",
+        "Negotiation assistance with data-backed insights"
+      ]
+    }
+  },
+  "howItWorks": {
+    "title": "How AltChain Works",
+    "description": "Our advanced AI technology transforms complex global sourcing into a streamlined, data-driven process.",
+    "steps": {
+      "dataCollection": {
+        "title": "Data Collection",
+        "description": "Our AI continuously gathers data from thousands of global sources, including trade publications, government databases, and industry reports."
+      },
+      "aiAnalysis": {
+        "title": "AI Analysis",
+        "description": "Advanced machine learning algorithms analyze the data to identify patterns, risks, and opportunities specific to your industry and needs."
+      },
+      "globalMatching": {
+        "title": "Global Matching",
+        "description": "We connect you with verified suppliers and manufacturing partners across different regions that match your specific requirements."
+      },
+      "optimization": {
+        "title": "Optimization",
+        "description": "Compare scenarios and options with real-time cost analysis, risk assessment, and compliance verification."
+      },
+      "monitoring": {
+        "title": "Continuous Monitoring",
+        "description": "Our platform continuously monitors your supply chain for potential disruptions and recommends alternative strategies when needed."
+      }
+    },
+    "aiInsights": {
+      "title": "AI-Powered Insights",
+      "description": "AltChain's proprietary algorithms process over 10 million data points daily to provide you with the most accurate and up-to-date sourcing intelligence. Our AI identifies opportunities and risks that would be impossible to discover through traditional research methods."
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Find answers to common questions about AltChain's AI-powered sourcing platform.",
+    "questions": {
+      "aiTechnology": {
+        "question": "How does AltChain's AI technology work?",
+        "answer": "AltChain's AI analyzes millions of data points from global trade databases, news sources, and industry reports to identify optimal sourcing opportunities. Our machine learning algorithms continually improve by learning from real-world outcomes, providing increasingly accurate recommendations over time."
+      },
+      "implementation": {
+        "question": "How long does it take to implement AltChain?",
+        "answer": "Getting started with AltChain is quick and easy. You can sign up and log in instantly as soon as we make access available. We've designed our platform to be intuitive and user-friendly, allowing you to configure and start using our features right away."
+      },
+      "integration": {
+        "question": "Can AltChain integrate with our existing procurement software?",
+        "answer": "Yes, AltChain is designed to integrate seamlessly with popular procurement and ERP systems including SAP, Oracle, NetSuite, and Coupa. We offer standardized APIs and pre-built connectors to ensure smooth data flow between systems."
+      },
+      "industries": {
+        "question": "What industries does AltChain serve?",
+        "answer": "AltChain supports global sourcing across multiple industries including manufacturing, electronics, consumer goods, automotive, pharmaceuticals, and textiles. Our platform is customizable to address the specific sourcing challenges in each industry."
+      },
+      "security": {
+        "question": "How does AltChain keep our sourcing data secure?",
+        "answer": "We implement bank-level security measures including encryption at rest and in transit, regular security audits, and strict access controls. Our platform complies with GDPR, CCPA, and other major data protection regulations. We never share your proprietary sourcing data with other customers."
+      },
+      "support": {
+        "question": "What kind of support does AltChain provide?",
+        "answer": "AltChain is currently in early access and designed to be self-serve. We're focused on building the best product experience — if you have feedback, we'd love to hear it."
+      }
+    },
+    "moreQuestions": "Have more questions?",
+    "contactTeam": "Contact our team"
+  },
+  "cta": {
+    "title": "Ready to Transform Your Global Sourcing?",
+    "description": "Join the waitlist today and be among the first to leverage AltChain's AI-powered sourcing platform.",
+    "button": "Join Waitlist"
+  },
+  "language": {
+    "en": "English",
+    "es": "Spanish",
+    "zh": "Chinese",
+    "fr": "French",
+    "ru": "Russian"
+  },
+  "timeTheme": {
+    "morning": "Morning Mode",
+    "day": "Day Mode",
+    "evening": "Evening Mode",
+    "night": "Night Mode",
+    "adaptiveTheme": "Adaptive colors based on your local time",
+    "earlyIn": "Early {{time}}",
+    "approachingNext": "Approaching next phase"
+  },
+  "contact": {
+    "navLink": "Contact",
+    "pageTitle": "Contact Us",
+    "pageDescription": "Have questions about AltChain? We're here to help. Fill out the form below and we'll get back to you as soon as possible.",
+    "title": "Send Us a Message",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "message": "Message",
+    "messagePlaceholder": "How can we help you?",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "success": "Message Sent!",
+    "successMessage": "Thank you for your message. We'll respond as soon as possible.",
+    "error": "Failed to Send",
+    "errorMessage": "Something went wrong. Please try again or email us directly.",
+    "validationError": "Please fill out all fields correctly.",
+    "office": "Office Location",
+    "phone": "Phone",
+    "hours": "Business Hours",
+    "businessHours": "Monday to Friday, 9am to 5pm PST",
+    "companyName": "AltChain Inc.",
+    "companyLocation": "Phoenix, AZ",
+    "companyCountry": "United States",
+    "companyEmailAddress": "daniel@altchain.app"
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact Us",
+    "copyright": "All rights reserved."
+  },
+  "languageSwitch": {
+    "detected": "We detected that your preferred language is {{language}}",
+    "suggestion": "Would you like to view this site in your preferred language?",
+    "stayInCurrent": "Yes, stay in {{language}}",
+    "changeLanguage": "No, change to {{language}}",
+    "switched": "Changed to {{language}}",
+    "confirmation": "All site content is now displayed in your preferred language"
+  },
+  "legal": {
+    "date": "April 13, 2025",
+    "lastUpdated": "Last updated",
+    "privacyPolicy": {
+      "title": "Privacy Policy",
+      "intro": {
+        "title": "1. Introduction",
+        "p1": "Welcome to AltChain (\"we,\" \"our,\" or \"us\"). We respect your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.",
+        "p2": "Please read this Privacy Policy carefully. If you do not agree with the terms of this Privacy Policy, please do not access the site."
+      },
+      "infoCollect": {
+        "title": "2. Information We Collect",
+        "personalData": {
+          "title": "Personal Data",
+          "content": "When you sign up for our waitlist, we collect your email address. This information is used to keep you updated about our services and launch date."
+        },
+        "usageData": {
+          "title": "Usage Data",
+          "content": "We may also collect information on how the website is accessed and used (\"Usage Data\"). This Usage Data may include information such as your computer's Internet Protocol address (IP address), browser type, browser version, the pages of our website that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers, and other diagnostic data."
+        }
+      },
+      "infoUse": {
+        "title": "3. How We Use Your Information",
+        "intro": "We use the information we collect for various purposes, including to:",
+        "purposes": {
+          "provide": "Provide and maintain our service",
+          "notify": "Notify you about changes to our service",
+          "support": "Provide customer support",
+          "monitor": "Monitor the usage of our service",
+          "technical": "Detect, prevent, and address technical issues",
+          "marketing": "Provide you with news, special offers, and general information about other goods, services, and events which we offer"
+        }
+      },
+      "email": {
+        "title": "4. Email Communications",
+        "content": "If you decide to opt-in to our mailing list, you will receive emails that may include company news, updates, related product or service information, etc. We may use third-party service providers to help us operate our business and the site or administer activities on our behalf, such as sending out newsletters or surveys."
+      },
+      "cookies": {
+        "title": "5. Cookies",
+        "p1": "We use cookies and similar tracking technologies to track the activity on our service and hold certain information. Cookies are files with a small amount of data which may include an anonymous unique identifier.",
+        "p2": "You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our service."
+      },
+      "security": {
+        "title": "6. Data Security",
+        "content": "The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your personal data, we cannot guarantee its absolute security."
+      },
+      "providers": {
+        "title": "7. Service Providers",
+        "p1": "We may employ third-party companies and individuals to facilitate our service (\"Service Providers\"), to provide the service on our behalf, to perform service-related services, or to assist us in analyzing how our service is used. These third parties have access to your personal data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.",
+        "p2": "Our Service Providers include:",
+        "sendgrid": "SendGrid for email communications",
+        "database": "Database service providers for storing waitlist information"
+      },
+      "rights": {
+        "title": "8. Your Data Protection Rights",
+        "intro": "Depending on your location, you may have certain rights regarding your personal information, such as:",
+        "list": {
+          "access": "The right to access, update, or delete the information we have on you",
+          "rectification": "The right of rectification - the right to have your information corrected",
+          "object": "The right to object - the right to object to our processing of your personal data",
+          "restriction": "The right of restriction - the right to request that we restrict the processing of your personal information",
+          "portability": "The right to data portability - the right to be provided with a copy of your personal information in a structured, machine-readable, and commonly used format",
+          "withdraw": "The right to withdraw consent - the right to withdraw your consent at any time"
+        }
+      },
+      "changes": {
+        "title": "9. Changes to This Privacy Policy",
+        "p1": "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the \"effective date\" at the top of this Privacy Policy.",
+        "p2": "You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page."
+      },
+      "contact": {
+        "title": "10. Contact Us",
+        "inquiry": "If you have any questions about this Privacy Policy, please contact us at:",
+        "email": "Email: privacy@altchain.com"
+      }
+    },
+    "termsOfService": {
+      "title": "Terms of Service",
+      "intro": {
+        "title": "1. Introduction",
+        "p1": "These Terms of Service (\"Terms\") govern your access to and use of the AltChain website and services. Please read these Terms carefully before using our services.",
+        "p2": "By accessing or using our service, you agree to be bound by these Terms. If you disagree with any part of the terms, then you may not access the service."
+      },
+      "waitlist": {
+        "title": "2. Waitlist Registration",
+        "content": "By registering for our waitlist, you agree to receive periodic updates about our services, launch dates, and related information. We will use the email address you provide to communicate with you about AltChain services."
+      },
+      "communications": {
+        "title": "3. Communications",
+        "content": "By providing your email address and signing up for our waitlist, you consent to receive communications from us electronically. You agree that all agreements, notices, disclosures, and other communications that we provide to you electronically satisfy any legal requirement that such communications be in writing."
+      },
+      "ip": {
+        "title": "4. Intellectual Property",
+        "p1": "Our service and its original content, features, and functionality are and will remain the exclusive property of AltChain and its licensors. Our service is protected by copyright, trademark, and other laws of both the United States and foreign countries.",
+        "p2": "Our trademarks and trade dress may not be used in connection with any product or service without the prior written consent of AltChain."
+      },
+      "links": {
+        "title": "5. Links To Other Web Sites",
+        "p1": "Our service may contain links to third-party web sites or services that are not owned or controlled by AltChain.",
+        "p2": "AltChain has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third-party web sites or services. You further acknowledge and agree that AltChain shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods, or services available on or through any such web sites or services."
+      },
+      "termination": {
+        "title": "6. Termination",
+        "p1": "We may terminate or suspend access to our service immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.",
+        "p2": "All provisions of the Terms which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity, and limitations of liability."
+      },
+      "disclaimer": {
+        "title": "7. Disclaimer",
+        "content": "Your use of the service is at your sole risk. The service is provided on an \"AS IS\" and \"AS AVAILABLE\" basis. The service is provided without warranties of any kind, whether express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, non-infringement, or course of performance."
+      },
+      "liability": {
+        "title": "8. Limitation of Liability",
+        "content": "In no event shall AltChain, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from (i) your access to or use of or inability to access or use the service; (ii) any conduct or content of any third party on the service; (iii) any content obtained from the service; and (iv) unauthorized access, use, or alteration of your transmissions or content, whether based on warranty, contract, tort (including negligence), or any other legal theory, whether or not we have been informed of the possibility of such damage."
+      },
+      "law": {
+        "title": "9. Governing Law",
+        "p1": "These Terms shall be governed and construed in accordance with the laws of the United States, without regard to its conflict of law provisions.",
+        "p2": "Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect."
+      },
+      "changes": {
+        "title": "10. Changes",
+        "p1": "We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.",
+        "p2": "By continuing to access or use our service after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, please stop using the service."
+      },
+      "contact": {
+        "title": "11. Contact Us",
+        "inquiry": "If you have any questions about these Terms, please contact us at:",
+        "email": "Email: legal@altchain.com"
+      }
+    }
+  }
+}

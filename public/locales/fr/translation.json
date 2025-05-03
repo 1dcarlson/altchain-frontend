@@ -1,0 +1,323 @@
+{
+  "personalWelcome": {
+    "greeting": "Bienvenue sur AltChain !",
+    "message": "Nous sommes ravis de vous accueillir. Découvrez comment notre plateforme alimentée par l'IA peut transformer votre stratégie d'approvisionnement mondial."
+  },
+  "hero": {
+    "title": "Approvisionnement Mondial Plus Intelligent grâce à l'IA",
+    "description": "AltChain aide les entreprises du monde entier à naviguer dans le paysage en évolution des guerres commerciales, des tarifs et des changements de chaîne d'approvisionnement — en utilisant l'IA pour optimiser l'approvisionnement, réduire les risques et gagner du temps."
+  },
+  "waitlist": {
+    "title": "Rejoignez notre liste d'attente",
+    "description": "Soyez parmi les premiers à accéder à notre plateforme d'approvisionnement alimentée par l'IA.",
+    "placeholder": "Entrez votre email professionnel",
+    "button": "Rejoindre la Liste d'Attente",
+    "submitting": "Soumission en cours...",
+    "success": "Merci d'avoir rejoint notre liste d'attente !",
+    "successDetail": "Nous vous contacterons lorsque nous serons prêts à accueillir de nouveaux utilisateurs.",
+    "error": "Quelque chose s'est mal passé !",
+    "errorDetail": "Veuillez réessayer ou contacter le support si le problème persiste.",
+    "tryAgain": "Réessayer",
+    "congratulations": "Félicitations !"
+  },
+  "benefits": {
+    "free": "Gratuit pour l'accès anticipé",
+    "noCard": "Pas de carte de crédit requise"
+  },
+  "features": {
+    "title": "Pourquoi choisir AltChain ?",
+    "description": "Notre plateforme alimentée par l'IA vous donne les outils dont vous avez besoin pour optimiser votre chaîne d'approvisionnement.",
+    "riskAnalysis": {
+      "title": "Analyse des Risques",
+      "description": "Identifiez les perturbations potentielles de la chaîne d'approvisionnement avant qu'elles n'affectent votre entreprise.",
+      "tooltip": "Notre IA analyse des données en temps réel provenant de plus de 50 000 sources pour prédire les perturbations jusqu'à 6 mois à l'avance, vous donnant le temps d'adapter votre stratégie. Les données de l'industrie montrent que les entreprises utilisant notre analyse des risques ont réduit les perturbations de la chaîne d'approvisionnement de 47%."
+    },
+    "compliance": {
+      "title": "Automatisation de la Conformité",
+      "description": "Restez conforme aux réglementations commerciales mondiales changeantes sans recherche manuelle.",
+      "tooltip": "Les réglementations commerciales changent jusqu'à 3 700 fois par an sur les marchés mondiaux. Notre système suit automatiquement ces changements et évalue votre chaîne d'approvisionnement pour les problèmes de conformité, économisant potentiellement des milliers en amendes réglementaires et retards."
+    },
+    "costOptimization": {
+      "title": "Optimisation des Coûts",
+      "description": "Découvrez des opportunités d'approvisionnement alternatives pour réduire les coûts et améliorer les marges.",
+      "tooltip": "Les clients d'AltChain réalisent généralement des économies de coûts de 15 à 23% au cours du premier trimestre de mise en œuvre. Notre IA évalue des milliers de scénarios d'approvisionnement alternatifs pour identifier des solutions optimales qui équilibrent coût, qualité et délais de livraison."
+    }
+  },
+  "detailedBenefits": {
+    "title": "Transformez Votre Stratégie d'Approvisionnement",
+    "description": "AltChain apporte des améliorations mesurables à vos opérations d'approvisionnement mondial.",
+    "reducedTime": {
+      "title": "Temps d'Approvisionnement Réduit",
+      "description": "Réduisez le temps de recherche jusqu'à 70% avec la découverte de fournisseurs alimentée par l'IA et des recommandations intelligentes.",
+      "items": [
+        "Correspondance de fournisseurs pilotée par l'IA basée sur vos exigences spécifiques",
+        "Vérifications automatiques des antécédents des fournisseurs potentiels",
+        "Filtres intelligents pour identifier rapidement les options les plus viables"
+      ]
+    },
+    "riskMitigation": {
+      "title": "Atténuation des Risques",
+      "description": "Identifiez et évitez les perturbations potentielles de la chaîne d'approvisionnement avant qu'elles n'affectent vos opérations.",
+      "items": [
+        "Surveillance en temps réel des facteurs géopolitiques affectant les chaînes d'approvisionnement",
+        "Évaluations de la stabilité financière des fournisseurs",
+        "Recommandations de diversification pour réduire les risques de source unique"
+      ]
+    },
+    "costSavings": {
+      "title": "Économies de Coûts",
+      "description": "Optimisez les décisions d'approvisionnement pour réduire considérablement les coûts tout en maintenant les normes de qualité.",
+      "items": [
+        "Prix comparatifs à travers multiples régions et fournisseurs",
+        "Analyse des coûts cachés (expédition, tarifs, conformité)",
+        "Assistance à la négociation avec des informations fondées sur des données"
+      ]
+    }
+  },
+  "howItWorks": {
+    "title": "Comment Fonctionne AltChain",
+    "description": "Notre technologie d'IA avancée transforme l'approvisionnement mondial complexe en un processus rationalisé et basé sur les données.",
+    "steps": {
+      "dataCollection": {
+        "title": "Collecte de Données",
+        "description": "Notre IA recueille continuellement des données de milliers de sources mondiales, y compris des publications commerciales, des bases de données gouvernementales et des rapports industriels."
+      },
+      "aiAnalysis": {
+        "title": "Analyse par IA",
+        "description": "Des algorithmes avancés d'apprentissage automatique analysent les données pour identifier les modèles, les risques et les opportunités spécifiques à votre industrie et à vos besoins."
+      },
+      "globalMatching": {
+        "title": "Correspondance Mondiale",
+        "description": "Nous vous connectons avec des fournisseurs vérifiés et des partenaires de fabrication dans différentes régions qui correspondent à vos exigences spécifiques."
+      },
+      "optimization": {
+        "title": "Optimisation",
+        "description": "Comparez les scénarios et les options avec une analyse des coûts en temps réel, une évaluation des risques et une vérification de la conformité."
+      },
+      "monitoring": {
+        "title": "Surveillance Continue",
+        "description": "Notre plateforme surveille continuellement votre chaîne d'approvisionnement pour détecter les perturbations potentielles et recommande des stratégies alternatives lorsque nécessaire."
+      }
+    },
+    "aiInsights": {
+      "title": "Insights Alimentés par l'IA",
+      "description": "Les algorithmes propriétaires d'AltChain traitent plus de 10 millions de points de données quotidiennement pour vous fournir l'intelligence d'approvisionnement la plus précise et à jour. Notre IA identifie des opportunités et des risques qu'il serait impossible de découvrir par des méthodes de recherche traditionnelles."
+    }
+  },
+  "faq": {
+    "title": "Questions Fréquemment Posées",
+    "description": "Trouvez des réponses aux questions courantes sur la plateforme d'approvisionnement alimentée par l'IA d'AltChain.",
+    "questions": {
+      "aiTechnology": {
+        "question": "Comment fonctionne la technologie d'IA d'AltChain ?",
+        "answer": "L'IA d'AltChain analyse des millions de points de données provenant de bases de données commerciales mondiales, de sources d'actualités et de rapports industriels pour identifier les opportunités d'approvisionnement optimales. Nos algorithmes d'apprentissage automatique s'améliorent continuellement en apprenant des résultats du monde réel, fournissant des recommandations de plus en plus précises au fil du temps."
+      },
+      "implementation": {
+        "question": "Combien de temps faut-il pour mettre en œuvre AltChain ?",
+        "answer": "Commencer avec AltChain est rapide et sans tracas. Vous pouvez vous inscrire et vous connecter instantanément une fois que nous aurons rendu l'accès disponible. Nous avons conçu notre plateforme pour qu'elle soit intuitive et facile à utiliser, vous permettant de configurer et de commencer à utiliser nos fonctionnalités immédiatement."
+      },
+      "integration": {
+        "question": "AltChain peut-il s'intégrer à notre logiciel d'approvisionnement existant ?",
+        "answer": "Oui, AltChain est conçu pour s'intégrer de manière transparente avec les systèmes d'approvisionnement et ERP populaires, y compris SAP, Oracle, NetSuite et Coupa. Nous offrons des API standardisées et des connecteurs préfabriqués pour assurer un flux de données fluide entre les systèmes."
+      },
+      "industries": {
+        "question": "Quelles industries AltChain sert-il ?",
+        "answer": "AltChain soutient l'approvisionnement mondial dans de multiples industries, y compris la fabrication, l'électronique, les biens de consommation, l'automobile, la pharmacie et les textiles. Notre plateforme est personnalisable pour répondre aux défis d'approvisionnement spécifiques dans chaque industrie."
+      },
+      "security": {
+        "question": "Comment AltChain garde-t-il nos données d'approvisionnement sécurisées ?",
+        "answer": "Nous mettons en œuvre des mesures de sécurité de niveau bancaire, y compris le chiffrement au repos et en transit, des audits de sécurité réguliers et des contrôles d'accès stricts. Notre plateforme est conforme au RGPD, au CCPA et à d'autres grandes réglementations de protection des données. Nous ne partageons jamais vos données d'approvisionnement propriétaires avec d'autres clients."
+      },
+      "support": {
+        "question": "Quel type de support AltChain fournit-il ?",
+        "answer": "AltChain est actuellement en accès anticipé et conçu pour être en libre-service. Nous nous concentrons sur la création de la meilleure expérience produit — si vous avez des commentaires, nous serions ravis de les entendre."
+      }
+    },
+    "moreQuestions": "Vous avez d'autres questions ?",
+    "contactTeam": "Contactez notre équipe"
+  },
+  "cta": {
+    "title": "Prêt à Transformer Votre Approvisionnement Mondial ?",
+    "description": "Rejoignez la liste d'attente aujourd'hui et soyez parmi les premiers à tirer parti de la plateforme d'approvisionnement alimentée par l'IA d'AltChain.",
+    "button": "Rejoindre la Liste d'Attente"
+  },
+  "language": {
+    "en": "Anglais",
+    "es": "Espagnol",
+    "zh": "Chinois",
+    "fr": "Français",
+    "ru": "Russe"
+  },
+  "contact": {
+    "navLink": "Contact",
+    "pageTitle": "Contactez-nous",
+    "pageDescription": "Vous avez des questions sur AltChain? Nous sommes là pour vous aider. Remplissez le formulaire ci-dessous et nous vous répondrons dès que possible.",
+    "title": "Envoyez-nous un message",
+    "name": "Nom",
+    "namePlaceholder": "Votre nom",
+    "email": "E-mail",
+    "emailPlaceholder": "votre@email.com",
+    "message": "Message",
+    "messagePlaceholder": "Comment pouvons-nous vous aider?",
+    "submit": "Envoyer le message",
+    "sending": "Envoi en cours...",
+    "success": "Message envoyé!",
+    "successMessage": "Merci pour votre message. Nous vous répondrons dès que possible.",
+    "error": "Échec de l'envoi",
+    "errorMessage": "Un problème est survenu. Veuillez réessayer ou nous envoyer un e-mail directement.",
+    "validationError": "Veuillez remplir correctement tous les champs.",
+    "office": "Emplacement du bureau",
+    "phone": "Téléphone",
+    "hours": "Heures d'ouverture",
+    "businessHours": "Du lundi au vendredi, de 9h à 17h PST",
+    "companyName": "AltChain Inc.",
+    "companyLocation": "Phoenix, AZ",
+    "companyCountry": "États-Unis",
+    "companyEmailAddress": "daniel@altchain.app"
+  },
+  "footer": {
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "contact": "Contactez-nous",
+    "copyright": "Tous droits réservés."
+  },
+  "languageSwitch": {
+    "detected": "Nous avons détecté que votre langue préférée est {{language}}",
+    "suggestion": "Souhaitez-vous consulter ce site dans votre langue préférée?",
+    "stayInCurrent": "Oui, rester en {{language}}",
+    "changeLanguage": "Non, changer pour {{language}}",
+    "switched": "Changé en {{language}}",
+    "confirmation": "Tout le contenu du site est maintenant affiché dans votre langue préférée"
+  },
+  "legal": {
+    "date": "13 avril 2025",
+    "lastUpdated": "Dernière mise à jour",
+    "privacyPolicy": {
+      "title": "Politique de Confidentialité",
+      "intro": {
+        "title": "1. Introduction",
+        "p1": "Bienvenue chez AltChain (« nous », « notre » ou « nos »). Nous respectons votre vie privée et nous nous engageons à protéger vos données personnelles. Cette Politique de Confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous visitez notre site web ou utilisez nos services.",
+        "p2": "Veuillez lire attentivement cette Politique de Confidentialité. Si vous n'êtes pas d'accord avec les termes de cette Politique de Confidentialité, veuillez ne pas accéder au site."
+      },
+      "infoCollect": {
+        "title": "2. Informations que Nous Collectons",
+        "personalData": {
+          "title": "Données Personnelles",
+          "content": "Lorsque vous vous inscrivez à notre liste d'attente, nous collectons votre adresse e-mail. Ces informations sont utilisées pour vous tenir informé de nos services et de la date de lancement."
+        },
+        "usageData": {
+          "title": "Données d'Utilisation",
+          "content": "Nous pouvons également collecter des informations sur la façon dont le site web est accédé et utilisé (« Données d'Utilisation »). Ces Données d'Utilisation peuvent inclure des informations telles que l'adresse de Protocole Internet de votre ordinateur (adresse IP), le type de navigateur, la version du navigateur, les pages de notre site web que vous visitez, l'heure et la date de votre visite, le temps passé sur ces pages, les identifiants uniques de l'appareil et d'autres données de diagnostic."
+        }
+      },
+      "infoUse": {
+        "title": "3. Comment Nous Utilisons Vos Informations",
+        "intro": "Nous utilisons les informations que nous collectons à diverses fins, notamment pour :",
+        "purposes": {
+          "provide": "Fournir et maintenir notre service",
+          "notify": "Vous informer des changements apportés à notre service",
+          "support": "Fournir un service client",
+          "monitor": "Surveiller l'utilisation de notre service",
+          "technical": "Détecter, prévenir et résoudre les problèmes techniques",
+          "marketing": "Vous fournir des actualités, des offres spéciales et des informations générales sur d'autres biens, services et événements que nous proposons"
+        }
+      },
+      "email": {
+        "title": "4. Communications par E-mail",
+        "content": "Si vous choisissez de vous inscrire à notre liste de diffusion, vous recevrez des e-mails qui peuvent inclure des nouvelles de l'entreprise, des mises à jour, des informations sur les produits ou services connexes, etc. Nous pouvons utiliser des fournisseurs de services tiers pour nous aider à exploiter notre entreprise et le site ou à administrer des activités en notre nom, comme l'envoi de bulletins d'information ou d'enquêtes."
+      },
+      "cookies": {
+        "title": "5. Cookies",
+        "p1": "Nous utilisons des cookies et des technologies de suivi similaires pour suivre l'activité sur notre service et conserver certaines informations. Les cookies sont des fichiers contenant une petite quantité de données qui peuvent inclure un identifiant unique anonyme.",
+        "p2": "Vous pouvez demander à votre navigateur de refuser tous les cookies ou d'indiquer quand un cookie est envoyé. Cependant, si vous n'acceptez pas les cookies, vous ne pourrez peut-être pas utiliser certaines parties de notre service."
+      },
+      "security": {
+        "title": "6. Sécurité des Données",
+        "content": "La sécurité de vos données est importante pour nous, mais n'oubliez pas qu'aucune méthode de transmission sur Internet ou méthode de stockage électronique n'est sécurisée à 100%. Bien que nous nous efforcions d'utiliser des moyens commercialement acceptables pour protéger vos données personnelles, nous ne pouvons pas garantir leur sécurité absolue."
+      },
+      "providers": {
+        "title": "7. Prestataires de Services",
+        "p1": "Nous pouvons faire appel à des sociétés tierces et à des individus pour faciliter notre service (« Prestataires de Services »), pour fournir le service en notre nom, pour effectuer des services liés au service ou pour nous aider à analyser comment notre service est utilisé. Ces tiers n'ont accès à vos données personnelles que pour effectuer ces tâches en notre nom et sont tenus de ne pas les divulguer ni les utiliser à d'autres fins.",
+        "p2": "Nos Prestataires de Services comprennent :",
+        "sendgrid": "SendGrid pour les communications par e-mail",
+        "database": "Fournisseurs de services de base de données pour stocker les informations de la liste d'attente"
+      },
+      "rights": {
+        "title": "8. Vos Droits de Protection des Données",
+        "intro": "Selon votre localisation, vous pouvez avoir certains droits concernant vos informations personnelles, tels que :",
+        "list": {
+          "access": "Le droit d'accéder, de mettre à jour ou de supprimer les informations que nous détenons sur vous",
+          "rectification": "Le droit de rectification - le droit de faire corriger vos informations",
+          "object": "Le droit d'objection - le droit de vous opposer à notre traitement de vos données personnelles",
+          "restriction": "Le droit de restriction - le droit de demander que nous limitions le traitement de vos informations personnelles",
+          "portability": "Le droit à la portabilité des données - le droit de recevoir une copie de vos informations personnelles dans un format structuré, lisible par machine et couramment utilisé",
+          "withdraw": "Le droit de retirer votre consentement - le droit de retirer votre consentement à tout moment"
+        }
+      },
+      "changes": {
+        "title": "9. Modifications de Cette Politique de Confidentialité",
+        "p1": "Nous pouvons mettre à jour notre Politique de Confidentialité de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle Politique de Confidentialité sur cette page et en mettant à jour la « date d'entrée en vigueur » en haut de cette Politique de Confidentialité.",
+        "p2": "Il vous est conseillé de consulter périodiquement cette Politique de Confidentialité pour tout changement. Les modifications apportées à cette Politique de Confidentialité entrent en vigueur lorsqu'elles sont publiées sur cette page."
+      },
+      "contact": {
+        "title": "10. Contactez-Nous",
+        "inquiry": "Si vous avez des questions concernant cette Politique de Confidentialité, veuillez nous contacter à :",
+        "email": "E-mail : privacy@altchain.com"
+      }
+    },
+    "termsOfService": {
+      "title": "Conditions d'Utilisation",
+      "intro": {
+        "title": "1. Introduction",
+        "p1": "Ces Conditions d'Utilisation (« Conditions ») régissent votre accès et utilisation du site web et des services d'AltChain. Veuillez lire attentivement ces Conditions avant d'utiliser nos services.",
+        "p2": "En accédant ou en utilisant notre service, vous acceptez d'être lié par ces Conditions. Si vous n'êtes pas d'accord avec une partie des conditions, vous ne pouvez pas accéder au service."
+      },
+      "waitlist": {
+        "title": "2. Inscription à la Liste d'Attente",
+        "content": "En vous inscrivant à notre liste d'attente, vous acceptez de recevoir des mises à jour périodiques concernant nos services, les dates de lancement et les informations connexes. Nous utiliserons l'adresse e-mail que vous fournissez pour communiquer avec vous au sujet des services d'AltChain."
+      },
+      "communications": {
+        "title": "3. Communications",
+        "content": "En fournissant votre adresse e-mail et en vous inscrivant à notre liste d'attente, vous consentez à recevoir des communications électroniques de notre part. Vous acceptez que tous les accords, avis, divulgations et autres communications que nous vous fournissons électroniquement satisfont à toute exigence légale selon laquelle ces communications doivent être écrites."
+      },
+      "ip": {
+        "title": "4. Propriété Intellectuelle",
+        "p1": "Notre service et son contenu original, ses fonctionnalités et sa fonctionnalité sont et resteront la propriété exclusive d'AltChain et de ses concédants. Notre service est protégé par le droit d'auteur, les marques commerciales et autres lois des États-Unis et des pays étrangers.",
+        "p2": "Nos marques commerciales et notre présentation commerciale ne peuvent pas être utilisées en relation avec un produit ou un service sans le consentement écrit préalable d'AltChain."
+      },
+      "links": {
+        "title": "5. Liens Vers D'autres Sites Web",
+        "p1": "Notre service peut contenir des liens vers des sites Web ou des services tiers qui ne sont pas détenus ou contrôlés par AltChain.",
+        "p2": "AltChain n'a aucun contrôle sur, et n'assume aucune responsabilité pour, le contenu, les politiques de confidentialité ou les pratiques de tout site Web ou service tiers. Vous reconnaissez et acceptez en outre qu'AltChain ne sera pas responsable, directement ou indirectement, de tout dommage ou perte causé ou présumé avoir été causé par ou en relation avec l'utilisation ou la confiance accordée à tout contenu, biens ou services disponibles sur ou via de tels sites Web ou services."
+      },
+      "termination": {
+        "title": "6. Résiliation",
+        "p1": "Nous pouvons résilier ou suspendre l'accès à notre service immédiatement, sans préavis ni responsabilité, pour quelque raison que ce soit, y compris, sans limitation, si vous violez les Conditions.",
+        "p2": "Toutes les dispositions des Conditions qui, par leur nature, devraient survivre à la résiliation survivront à la résiliation, y compris, sans limitation, les dispositions relatives à la propriété, les avis de non-responsabilité, l'indemnisation et les limitations de responsabilité."
+      },
+      "disclaimer": {
+        "title": "7. Avis de Non-Responsabilité",
+        "content": "Votre utilisation du service est à vos propres risques. Le service est fourni « TEL QUEL » et « SELON DISPONIBILITÉ ». Le service est fourni sans garanties d'aucune sorte, qu'elles soient expresses ou implicites, y compris, mais sans s'y limiter, les garanties implicites de qualité marchande, d'adéquation à un usage particulier, de non-contrefaçon ou de performance."
+      },
+      "liability": {
+        "title": "8. Limitation de Responsabilité",
+        "content": "En aucun cas, AltChain, ni ses directeurs, employés, partenaires, agents, fournisseurs ou affiliés, ne seront responsables de tout dommage indirect, accidentel, spécial, consécutif ou punitif, y compris, sans limitation, la perte de profits, de données, d'utilisation, de clientèle ou d'autres pertes intangibles, résultant de (i) votre accès à ou utilisation ou incapacité à accéder ou à utiliser le service ; (ii) toute conduite ou contenu d'un tiers sur le service ; (iii) tout contenu obtenu du service ; et (iv) l'accès, l'utilisation ou l'altération non autorisés de vos transmissions ou contenus, que ce soit sur la base d'une garantie, d'un contrat, d'un délit (y compris la négligence) ou de toute autre théorie juridique, que nous ayons été informés ou non de la possibilité de tels dommages."
+      },
+      "law": {
+        "title": "9. Loi Applicable",
+        "p1": "Ces Conditions seront régies et interprétées conformément aux lois des États-Unis, sans égard à ses dispositions relatives aux conflits de lois.",
+        "p2": "Notre incapacité à faire respecter un droit ou une disposition de ces Conditions ne sera pas considérée comme une renonciation à ces droits. Si une disposition de ces Conditions est jugée invalide ou inapplicable par un tribunal, les dispositions restantes de ces Conditions resteront en vigueur."
+      },
+      "changes": {
+        "title": "10. Modifications",
+        "p1": "Nous nous réservons le droit, à notre seule discrétion, de modifier ou de remplacer ces Conditions à tout moment. Si une révision est importante, nous essaierons de fournir un préavis d'au moins 30 jours avant que de nouvelles conditions n'entrent en vigueur. Ce qui constitue un changement important sera déterminé à notre seule discrétion.",
+        "p2": "En continuant à accéder ou à utiliser notre service après que ces révisions soient entrées en vigueur, vous acceptez d'être lié par les conditions révisées. Si vous n'êtes pas d'accord avec les nouvelles conditions, veuillez cesser d'utiliser le service."
+      },
+      "contact": {
+        "title": "11. Contactez-Nous",
+        "inquiry": "Si vous avez des questions concernant ces Conditions, veuillez nous contacter à :",
+        "email": "E-mail : legal@altchain.com"
+      }
+    }
+  }
+}
