@@ -16,6 +16,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
   try {
     console.log('🧠 RAW HEADERS:', req.headers);
+    console.log('🌐 DATABASE URL:', process.env.DATABASE_URL);
     const { email, name, language } = req.body;
 
     console.log('📥 HEADERS:', JSON.stringify(req.headers));
