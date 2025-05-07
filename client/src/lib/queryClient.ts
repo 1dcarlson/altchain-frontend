@@ -13,7 +13,7 @@ export async function apiRequest(
   data?: unknown | undefined,
 ): Promise<Response> {
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL || ''}/api${url}`, {
+    const res = await fetch('/api' + url, {
       method,
       headers: data ? { "Content-Type": "application/json" } : {},
       body: data ? JSON.stringify(data) : undefined,
