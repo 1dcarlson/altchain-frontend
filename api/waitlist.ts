@@ -5,6 +5,10 @@ const sql = neon(process.env.DATABASE_URL!);
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== 'POST') {
+  console.log('❌ Request method received:', req.method);
+  return res.status(405).json({ error: 'Method Not Allowed' });
+}
+  if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method Not Allowed' });
   }
 
