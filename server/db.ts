@@ -5,9 +5,6 @@ import * as schema from "@shared/schema";
 
 // Required to use WebSockets with Neon
 neonConfig.webSocketConstructor = ws;
-
-// ✅ Fully hardcoded Neon DB URL (no env needed)
-const connectionString = "postgresql://neondb_owner:npg_JvEXFpV4MU7zep@ep-odd-hat-a4uq3xwv--pooler.us-east-1.aws.neon.tech/neondb?sslmode=require";
-
+// Skipping DATABASE_URL env check — using hardcoded value below
 export const pool = new Pool({ connectionString });
 export const db = drizzle({ client: pool, schema });
