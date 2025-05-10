@@ -1,14 +1,22 @@
-import dotenv from 'dotenv';
-dotenv.config();
+import sgMail from "@sendgrid/mail";
 
-import sgMail from '@sendgrid/mail';
+// TEMP: Hardcode your SendGrid API key directly here
+sgMail.setApiKey("your_actual_sendgrid_key_here");
 
-sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-
-export async function sendEmail({ to, subject, text, html }) {
+export async function sendEmail({
+  to,
+  subject,
+  text,
+  html,
+}: {
+  to: string;
+  subject: string;
+  text: string;
+  html: string;
+}) {
   const msg = {
     to,
-    from: 'daniel@altchain.app', // 👈 must match your verified sender
+    from: "daniel@altchain.app", // must match your verified sender in SendGrid
     subject,
     text,
     html,
@@ -16,10 +24,10 @@ export async function sendEmail({ to, subject, text, html }) {
 
   try {
     await sgMail.send(msg);
-    console.log('Email sent successfully');
-  } catch (error) {
-    console.error('SendGrid Error:', error.response?.body || error.message);
-    throw new Error('Email failed to send');
+    console.log("✅ Email sent successfully");
+  } catch (error: any) {
+    console.error("❌ SendGrid Error:", error.response?.body || error.message);
+    throw new Error("Email failed to send");
   }
 }
 
