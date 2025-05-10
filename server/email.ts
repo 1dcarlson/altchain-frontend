@@ -1,7 +1,8 @@
 import sgMail from "@sendgrid/mail";
 
 // TEMP: Hardcode your SendGrid API key directly here
-sgMail.setApiKey("your_actual_sendgrid_key_here");
+sgMail.setApiKey("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
+");
 
 export async function sendEmail({
   to,
