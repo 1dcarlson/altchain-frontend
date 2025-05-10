@@ -1,14 +1,11 @@
-import type { NextApiRequest, NextApiResponse } from 'next';
+import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { neon } from '@neondatabase/serverless';
 
 const sql = neon(process.env.DATABASE_URL!);
 
-export default async function handler(req: NextApiRequest, res: NextApiResponse) {
+export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== 'POST') {
-  console.log('❌ Request method received:', req.method);
-  return res.status(405).json({ error: 'Method Not Allowed' });
-}
-  if (req.method !== 'POST') {
+    console.log('❌ Request method received:', req.method);
     return res.status(405).json({ error: 'Method Not Allowed' });
   }
 
