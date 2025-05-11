@@ -7,7 +7,7 @@ import * as schema from "@shared/schema";
 neonConfig.webSocketConstructor = ws;
 
 // ✅ Hardcoded full Neon connection string
-const connectionString = "postgresql://neondb_owner:npg_..."; // your full URL here
+const connectionString = "postgres://neondb_owner:npg_..."; // your full URL here
 
 // ❌ REMOVE this block if it still exists:
 // if (!process.env.DATABASE_URL) {
