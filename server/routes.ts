@@ -1,58 +1,61 @@
-import type { Express } from "express";
-import { createServer, type Server } from "http";
-import storage from "./storage";
-import { sendEmail, sendWaitlistConfirmation, type SupportedLanguage } from "./email";
-import { z } from "zod";
-import { insertWaitlistSchema } from "@shared/schema";
-import path from "path";
-import fs from "fs";
+import express from 'express';
+import { z } from 'zod';
+import { db } from './db';
+import { waitlist, contact } from '@shared/schema';
+import { sendWaitlistConfirmation, sendEmail } from './email';
 
-// ✅ Missing imports for your routes:
-import waitlistRoutes from "./routes/waitlist";
-import contactRoutes from "./routes/contact";
+const router = express.Router();
 
-export async function registerRoutes(app: Express): Promise<Server> {
-  // ✅ Register API routes for waitlist and contact
-  app.use("/api/waitlist", waitlistRoutes);
-  app.use("/api/contact", contactRoutes);
+const insertWaitlistSchema = z.object({
+  email: z.string().email(),
+  name: z.string().min(2).max(100).optional(),
+  language: z.string().min(2).max(5).optional()
+});
 
-  // Favicon for Safari
-  app.get("/favicon.ico", (req, res) => {
-    res.set("Content-Type", "image/x-icon");
-    res.sendFile(path.resolve("./public/favicon.ico"));
-  });
+const insertContactSchema = z.object({
+  name: z.string().min(2).max(100),
+  email: z.string().email(),
+  message: z.string().min(5).max(1000)
+});
 
-  // Apple touch icon variations
-  const appleTouchIconVariations = [
-    "/apple-touch-icon.png",
-    "/apple-touch-icon-120x120.png",
-    "/apple-touch-icon-152x152.png",
-    "/apple-touch-icon-180x180.png",
-  ];
-
-  for (const variation of appleTouchIconVariations) {
-    app.get(variation, (req, res) => {
-      res.sendFile(path.resolve(`./public${variation}`));
+router.post('/api/waitlist', async (req, res) => {
+  try {
+    const validated = insertWaitlistSchema.parse(req.body);
+    const inserted = await db.insert(waitlist).values({
+      email: validated.email,
+      name: validated.name,
+      language: validated.language
     });
+    await sendWaitlistConfirmation(validated.email, validated.language);
+    res.status(200).json({ success: true, entry: inserted });
+  } catch (error: any) {
+    console.error('❌ /api/waitlist error:', error);
+    res.status(500).json({ error: error.message || 'Failed to join waitlist' });
   }
+});
 
-  // Serve robots.txt
-  app.get("/robots.txt", (req, res) => {
-    res.type("text/plain");
-    res.send("User-agent: *\nDisallow:");
-  });
+router.post('/api/contact', async (req, res) => {
+  try {
+    const validated = insertContactSchema.parse(req.body);
+    const inserted = await db.insert(contact).values({
+      name: validated.name,
+      email: validated.email,
+      message: validated.message
+    });
+    await sendEmail({
+      to: 'daniel@altchain.app',
+      subject: `New Contact Form Message from ${validated.name}`,
+      text: validated.message,
+      html: `<p><strong>${validated.name}</strong> (${validated.email}) wrote:</p><p>${validated.message}</p>`
+    });
+    res.status(200).json({ success: true, entry: inserted });
+  } catch (error: any) {
+    console.error('❌ /api/contact error:', error);
+    res.status(500).json({ error: error.message || 'Failed to send message' });
+  }
+});
 
-  // Serve sitemap.xml
-  app.get("/sitemap.xml", (req, res) => {
-    res.sendFile(path.resolve("./public/sitemap.xml"));
-  });
-
-  // Static file fallback
-  app.use((req, res) => {
-    res.status(404).send("Not found");
-  });
-
-  // Return server instance
-  const server = createServer(app);
-  return server;
+export function registerRoutes(app: express.Express) {
+  app.use(router);
+  return app.listen;
 }
