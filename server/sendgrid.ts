@@ -1,7 +1,7 @@
 import sgMail from '@sendgrid/mail';
 
 // Initialize SendGrid with the API key from environment variables
-if (process.env.process.env.SENDGRID_API_KEY) {
+if (process.env.SENDGRID_API_KEY) {
   sgMail.setApiKey(process.env.process.env.SENDGRID_API_KEY);
 } else {
   console.warn('SendGrid API key not found in environment variables');
@@ -22,7 +22,7 @@ interface EmailParams {
  */
 export async function sendEmail(params: EmailParams): Promise<boolean> {
   try {
-    if (!process.env.process.env.SENDGRID_API_KEY) {
+    if (!process.env.SENDGRID_API_KEY) {
       console.error('SendGrid API key is not set in environment variables');
       return false;
     }
