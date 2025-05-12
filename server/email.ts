@@ -1,8 +1,9 @@
 import sgMail from "@sendgrid/mail";
 
-// TEMP: Hardcode your SendGrid API key directly here
-sgMail.setApiKey("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");
+sgMail.setApiKey("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");
 console.log("✅ SendGrid key loaded");
+
+>>>>>>> 8a432330 (Final working version with SendGrid, waitlist, and contact form)
 export async function sendEmail({
   to,
   subject,
