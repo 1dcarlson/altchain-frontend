@@ -32,7 +32,7 @@ export default function SimpleContactForm() {
     setSubmitted(true);
 
     try {
-      const response = await fetch('/api/contact', {
+      const response = await fetch('https://altchain-backend-production.up.railway.app/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
