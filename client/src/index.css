@@ -1,444 +1,68 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* ---------------- ANIMATIONS ---------------- */
-
-/* Fade In Up Animation */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translate(-50%, 20px);
-  }
-  to {
-    opacity: 1;
-    transform: translate(-50%, 0);
-  }
-}
-
-.animate-fade-in-up {
-  animation: fadeInUp 0.5s ease-out forwards;
-}
-
-/* Shimmer Animation */
-@keyframes shimmer {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(100%);
-  }
-}
-
-/* Subtle Lift Animation */
-@keyframes subtleLift {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-3px);
-  }
-}
-
-/* Pulse Animation */
-@keyframes subtlePulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.03);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-/* Glow Animation */
-@keyframes subtleGlow {
-  0% {
-    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
-  }
-  50% {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-  }
-  100% {
-    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
-  }
-}
-
-/* Interactive Element Hover Classes */
-.hover-lift {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.hover-lift:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-}
-
-.hover-scale {
-  transition: transform 0.2s ease;
-}
-
-.hover-scale:hover {
-  transform: scale(1.03);
-}
-
-.hover-glow {
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
-
-.hover-glow:hover {
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-}
-
-.hover-shadow {
-  transition: box-shadow 0.3s ease;
-}
-
-.hover-shadow:hover {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
-}
-
 :root {
-  /* Base color variables - will be dynamically changed by theme provider */
-  --primary: hsl(215, 100%, 50%);
-  --secondary: hsl(165, 100%, 41%);
-  --accent: hsl(280, 100%, 60%);
-  --background: hsl(0, 0%, 100%);
-  --text: hsl(215, 30%, 20%); /* Darker text for better readability */
-  
-  /* Gradient variants - dynamically set by theme provider */
-  --gradientPrimary: linear-gradient(135deg, hsl(215, 100%, 50%), hsl(240, 100%, 65%));
-  --gradientSecondary: linear-gradient(135deg, hsl(165, 100%, 41%), hsl(190, 100%, 50%));
-  --gradientBackground: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(220, 50%, 98%));
-  
-  /* UI component mappings */
-  --foreground: var(--text);
-  --card: hsl(0, 0%, 100%);
-  --card-foreground: var(--text);
-  --popover: hsl(0, 0%, 100%);
-  --popover-foreground: var(--text);
-  --muted: hsl(215, 15%, 95%);
-  --muted-foreground: hsl(215, 10%, 45%);
-  
-  --border: hsl(215, 15%, 90%);
-  --input: hsl(215, 15%, 90%);
-  
-  --primary-foreground: hsl(0, 0%, 100%);
-  --secondary-foreground: hsl(0, 0%, 100%);
-  --accent-foreground: hsl(0, 0%, 100%);
-  
-  --destructive: hsl(0, 85%, 60%);
-  --destructive-foreground: hsl(0, 0%, 100%);
-  
-  --ring: var(--primary);
-  
-  --radius: 0.5rem;
-  
-  /* Transition speeds for theme changes */
-  --theme-transition: 0.7s ease-in-out;
-  --gradient-transition: 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-[data-theme="dark"], .dark {
-  --background: hsl(222, 25%, 8%); /* #0d1117 - Dark navy/black, easy on eyes */
-  --text: hsl(220, 15%, 90%); /* #e5e7eb - Light gray text for readability */
-
-  --foreground: hsl(220, 15%, 90%);
-  --card: hsl(222, 22%, 11%); /* #161b22 - Slightly lighter dark background */
-  --popover: hsl(222, 22%, 11%);
-  --card-foreground: hsl(220, 15%, 90%);
-  --popover-foreground: hsl(220, 15%, 90%);
-  
-  --muted: hsl(215, 25%, 20%);
-  --muted-foreground: hsl(215, 10%, 65%);
-  
-  --border: hsl(220, 15%, 25%); /* #30363d - Border color for contrast */
-  --input: hsl(220, 15%, 25%);
-  
-  /* Gradient background for dark theme */
-  --gradientBackground: linear-gradient(135deg, hsl(222, 25%, 8%), hsl(222, 25%, 12%));
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
 }
 
-/* Enhance dark mode text opacity for better readability */
-.dark a, .dark p, .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6, .dark span {
-  color: var(--text);
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
 }
 
-/* Dark mode link styling */
-.dark a:not([class*="bg-"]):not(.text-gradient) {
-  color: #60a5fa; /* Softer blue for links */
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
 }
 
-@layer base {
-  * {
-    @apply border-0;
-  }
-  
-  /* Placeholders for better visibility */
-  ::placeholder {
-    opacity: 1 !important;
-    font-weight: 500;
-  }
-  
-  /* Light mode placeholders */
-  :root:not(.dark) ::placeholder {
-    color: rgba(0, 0, 0, 0.7) !important;
-  }
-  
-  /* Dark mode placeholders */
-  .dark ::placeholder {
-    color: rgba(255, 255, 255, 0.7) !important;
-  }
-
-  body {
-    @apply font-sans antialiased text-foreground;
-    background-color: var(--background);
-    color: var(--text);
-    min-height: 100vh;
-    overflow-x: hidden;
-    transition: 
-      background-color var(--theme-transition),
-      color var(--theme-transition);
-  }
-
-  /* Animation for smooth transitions */
-  .transition-gradient {
-    transition: background var(--gradient-transition);
-  }
-  
-  /* Apply transitions to common elements */
-  button, a, input, textarea, .card, .bg-card, .bg-primary, .text-primary, 
-  .border, .border-primary, .shadow, .rounded {
-    transition: 
-      background-color var(--theme-transition),
-      border-color var(--theme-transition),
-      color var(--theme-transition),
-      box-shadow var(--theme-transition);
-  }
-  
-  /* Gradient components */
-  .bg-gradient-primary {
-    background: var(--gradientPrimary);
-    transition: background var(--gradient-transition);
-  }
-  
-  .bg-gradient-secondary {
-    background: var(--gradientSecondary);
-    transition: background var(--gradient-transition);
-  }
-  
-  .bg-gradient-background {
-    background: var(--gradientBackground);
-    transition: background var(--gradient-transition);
-  }
-  
-  /* Text with gradient background */
-  .text-gradient {
-    background-image: var(--gradientPrimary);
-    background-clip: text;
-    color: transparent;
-    background-size: 200% 200%;
-    transition: background-image var(--gradient-transition);
-  }
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
 }
 
-/* Detect system dark mode preference */
-@media (prefers-color-scheme: dark) {
-  body:not([data-theme="light"]) {
-    --background: hsl(222, 25%, 8%); /* #0d1117 - Dark navy/black, easy on eyes */
-    --text: hsl(220, 15%, 90%); /* #e5e7eb - Light gray text for readability */
-    --card: hsl(222, 22%, 11%); /* #161b22 - Slightly lighter dark background */
-    --popover: hsl(222, 22%, 11%);
-    --card-foreground: hsl(220, 15%, 90%);
-    --popover-foreground: hsl(220, 15%, 90%);
-    --border: hsl(220, 15%, 25%); /* #30363d - Border color for contrast */
-    --input: hsl(220, 15%, 25%);
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
   }
-  
-  /* Dark mode link color */
-  body:not([data-theme="light"]) a:not([class*="bg-"]):not(.text-gradient) {
-    color: #60a5fa; /* Softer blue for links */
+  a:hover {
+    color: #747bff;
   }
-}
-
-/* Strong light mode defaults */
-html, body, #root {
-  background-color: #ffffff !important;
-  color: #1a1a1a !important;
-}
-
-/* EXTREME Dark Mode Override - Ultra-specific selectors with !important - LAST RESORT APPROACH */
-@media (prefers-color-scheme: dark) {
-  html, body, #root, .dark, [data-theme="dark"] {
-    background-color: #0d1117 !important;
-    color: #e5e7eb !important;
-  }
-
-  a, .dark a, [data-theme="dark"] a {
-    color: #60a5fa !important;
-  }
-
-  header, footer, .dark header, .dark footer, 
-  [data-theme="dark"] header, [data-theme="dark"] footer {
-    background-color: #161b22 !important;
-  }
-
-  /* CUSTOM FIXES FOR SPECIFIC ELEMENTS */
-  
-  /* 1. MAIN JOIN WAITLIST BUTTON - BLACK WITH SHIMMER */
-  body.dark button, 
-  html[data-theme="dark"] button, 
-  .dark button:not([aria-label="Language Selector"]),
-  button.dark:not([aria-label="Language Selector"]),
-  button:is(:contains("Join Waitlist")),
-  button:has(span:contains("Join Waitlist")) {
-    background-color: #111827 !important; /* VERY DARK BLACK */
-    color: white !important;
-    position: relative !important;
-    overflow: hidden !important;
-  }
-  
-  /* 2. LANGUAGE SELECTOR - GREY BACKGROUND */
-  [aria-label="Language Selector"],
-  button[aria-label="Language Selector"],
-  .dark [aria-label="Language Selector"],
-  .dark button[aria-label="Language Selector"],
-  html[data-theme="dark"] [aria-label="Language Selector"],
-  html[data-theme="dark"] button[aria-label="Language Selector"] {
-    background-color: #1F2937 !important; /* Grey to match page */
-    border: 1px solid rgba(255, 255, 255, 0.1) !important;
-    color: #e5e7eb !important;
-  }
-  
-  /* Language selector globe SVG/icon */
-  [aria-label="Language Selector"] svg,
-  [aria-label="Language Selector"] *,
-  button[aria-label="Language Selector"] svg,
-  button[aria-label="Language Selector"] *,
-  .dark [aria-label="Language Selector"] svg,
-  .dark [aria-label="Language Selector"] *,
-  html[data-theme="dark"] [aria-label="Language Selector"] svg,
-  html[data-theme="dark"] [aria-label="Language Selector"] * {
-    background-color: #1F2937 !important;
-  }
-  
-  /* 3. FIX LANGUAGE DROPDOWN MENU - VISIBLE NON-TRANSPARENT */
-  [role="menu"],
-  div[role="menu"],
-  .dark [role="menu"],
-  .dark div[role="menu"],
-  html[data-theme="dark"] [role="menu"],
-  html[data-theme="dark"] div[role="menu"] {
-    background-color: #2D3748 !important; /* Lighter grey for dropdown */
-    border: 1px solid rgba(255, 255, 255, 0.15) !important;
-    opacity: 1 !important;
-    color: #e5e7eb !important;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5) !important;
-  }
-  
-  /* Dropdown items */
-  [role="menu"] li,
-  [role="menu"] a,
-  [role="menu"] button,
-  [role="menu"] div,
-  .dark [role="menu"] li,
-  .dark [role="menu"] a,
-  .dark [role="menu"] button,
-  .dark [role="menu"] div,
-  html[data-theme="dark"] [role="menu"] li,
-  html[data-theme="dark"] [role="menu"] a,
-  html[data-theme="dark"] [role="menu"] button,
-  html[data-theme="dark"] [role="menu"] div {
-    background-color: #2D3748 !important; /* Lighter grey for dropdown items */
-    color: #e5e7eb !important;
-    opacity: 1 !important;
-    transition: background-color 0.2s ease !important;
-  }
-  
-  /* Dropdown item hover states */
-  [role="menu"] li:hover,
-  [role="menu"] a:hover,
-  [role="menu"] button:hover,
-  .dark [role="menu"] li:hover,
-  .dark [role="menu"] a:hover,
-  .dark [role="menu"] button:hover,
-  html[data-theme="dark"] [role="menu"] li:hover,
-  html[data-theme="dark"] [role="menu"] a:hover,
-  html[data-theme="dark"] [role="menu"] button:hover {
-    background-color: #4A5568 !important; /* Even lighter on hover */
-    color: white !important;
-  }
-  
-  /* 4. CONTACT FORM INPUTS - GREY LIKE WAITLIST FIELDS */
-  form input,
-  form textarea,
-  .dark form input,
-  .dark form textarea,
-  html[data-theme="dark"] form input,
-  html[data-theme="dark"] form textarea,
-  input[type="text"],
-  input[type="email"],
-  input[type="password"],
-  input[type="tel"],
-  textarea {
-    background-color: #374151 !important; /* Lighter grey - MATCH WAITLIST FORM */
-    color: white !important;
-    border: 1px solid #4B5563 !important;
-  }
-  
-  /* General text selectors */
-  p, h1, h2, h3, h4, h5, h6, span, li, label,
-  .dark p, .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6, .dark span, .dark li, .dark label,
-  [data-theme="dark"] p, [data-theme="dark"] h1, [data-theme="dark"] h2, [data-theme="dark"] h3, 
-  [data-theme="dark"] h4, [data-theme="dark"] h5, [data-theme="dark"] h6, [data-theme="dark"] span,
-  [data-theme="dark"] li, [data-theme="dark"] label {
-    color: #e5e7eb !important;
-  }
-
-  /* Default section handling */
-  section, div, .card, .container, article, aside, main, nav,
-  .dark section, .dark div, .dark .card, .dark .container, .dark article, .dark aside, .dark main, .dark nav,
-  [data-theme="dark"] section, [data-theme="dark"] div, [data-theme="dark"] .card, [data-theme="dark"] .container,
-  [data-theme="dark"] article, [data-theme="dark"] aside, [data-theme="dark"] main, [data-theme="dark"] nav {
-    background-color: transparent !important; /* Default to transparent */
-    color: #e5e7eb !important;
-  }
-  
-  /* Card-like elements styling */
-  .card, .container, .content, .section, .box, .panel,
-  .dark .card, .dark .container, .dark .content, .dark .section, .dark .box, .dark .panel,
-  [data-theme="dark"] .card, [data-theme="dark"] .container, [data-theme="dark"] .content, 
-  [data-theme="dark"] .section, [data-theme="dark"] .box, [data-theme="dark"] .panel {
-    background-color: #1F2937 !important; /* USE GREY, not super dark */
-  }
-  
-  /* Default input, button, form elements */
-  select, option,
-  .dark select, .dark option,
-  [data-theme="dark"] select, [data-theme="dark"] option {
-    background-color: #374151 !important; /* GREY */
-    color: #e5e7eb !important;
-    border: 1px solid #4B5563 !important;
-  }
-  
-  /* Ensure placeholders are visible */
-  ::placeholder {
-    color: rgba(255, 255, 255, 0.7) !important;
-  }
-  
-  /* Shimmer animation for buttons */
-  @keyframes shimmer {
-    0% {
-      transform: translateX(-100%);
-    }
-    100% {
-      transform: translateX(100%);
-    }
-  }
-  
-  .animate-shimmer, .group-hover:animate-shimmer {
-    animation: shimmer 2s infinite;
+  button {
+    background-color: #f9f9f9;
   }
 }
